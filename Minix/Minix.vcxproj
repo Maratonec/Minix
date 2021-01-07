@@ -140,7 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="Source\bootloader.asm" />
-    <None Include="Source\Util\print.asm" />
+    <None Include="Source\Util\DiskReader.asm" />
+    <None Include="Source\Util\ExtendedProgram.asm" />
+    <None Include="Source\Util\StringPrinter.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

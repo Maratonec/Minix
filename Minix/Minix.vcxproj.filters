@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Source\Util\print.asm">
+    <None Include="Source\bootloader.asm">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="Source\bootloader.asm">
+    <None Include="Source\Util\DiskReader.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Source\Util\StringPrinter.asm">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Source\Util\ExtendedProgram.asm">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
